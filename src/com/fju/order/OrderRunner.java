@@ -23,6 +23,7 @@ public class OrderRunner {
         orders.add(new Order(550, hiLife));
         orders.add(new Order(220, shopee));
         orders.add(new Order(130, shopee));
+
         System.out.println("金額\t運送\t運費\t小計");
         for (int i = 0; i < orders.size(); i++) {
             Order order = orders.get(i);
