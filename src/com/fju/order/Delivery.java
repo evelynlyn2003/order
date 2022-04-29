@@ -1,6 +1,6 @@
 package com.fju.order;
 
 public class Delivery {
-    String name;
+    String name ;
     int price;
 }
